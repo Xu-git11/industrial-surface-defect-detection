@@ -1,0 +1,32 @@
+# 虚拟环境
+cv_env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 数据集（体积大 / 由脚本生成，请本地生成或自行下载）
+data/
+*.tar.xz
+*.tar
+*.zip
+
+# 检测结果（跑脚本自动生成）
+outputs/
+output/
+
+# 模型权重
+*.pt
+*.onnx
+runs/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
